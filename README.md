@@ -19,6 +19,10 @@ Brain tumors pose significant health challenges, necessitating early diagnosis a
 - **Normalization** and **augmentation** to improve the model’s generalization and performance.
 
 ### Model Architecture
+
+![Brain Tumor Detection](braintumor/brainarchitecture.png)
+
+
 The architecture uses a Convolutional Neural Network (CNN) model with the following layers:
 1. **Conv2D** for convolution operations.
 2. **MaxPooling2D** for down-sampling.
@@ -30,16 +34,21 @@ The architecture uses a Convolutional Neural Network (CNN) model with the follow
 # IV. RESULTS AND DISCUSSIONS
 
 The new method for finding brain tumors using deep learning with CNNs achieved better results compared to the old one. The old method had 97% accuracy, but the new approach reached 98% accuracy, just by using CNNs. This improvement highlights how even small changes in model configuration or data preprocessing can significantly affect performance. The higher accuracy in the new method suggests that the adjustments made in model learning or data preparation contributed to better results. The increase in accuracy might also be attributed to the model being trained for 50 epochs in the new method, compared to the old method, which could have had fewer training rounds.
-![Brain Tumor Detection](Brain-tumor-prediction/cnnmodel-accuracy.png)
+![Brain Tumor Detection](braintumor/accuracy.jpg)
+
 
 *Representation of the increase in model accuracy using proposed approaches.*
 
+
+![Brain Tumor Detection](braintumor/tumor.jpg)
 
 In conclusion, the new method for brain tumor detection using CNNs performs better than the older method due to fine-tuning of model parameters and data preprocessing. The extended training period (50 epochs) contributed to a more refined model capable of achieving 98% accuracy compared to the 97% accuracy of the old method. These enhancements show how small adjustments can have a significant impact on medical imaging tasks like tumor detection.
 
 ---
 
-![Brain Tumor Detection](Brain-tumor-prediction/cnnmodel-accuracy.png)
+![Brain Tumor Detection](braintumor/cnnaccuracy.png)
+
+
  Training and Validation Accuracy of a CNN Model
 
 This graph displays the accuracy of the CNN model during training and validation. The x-axis represents the epoch, which is one complete pass through the training data, while the y-axis shows the accuracy, indicating how well the model performs on the given dataset. The two lines on the graph represent:
@@ -58,6 +67,4 @@ Moreover, by combining various imaging data, we can create models tailored to in
 
 ---
 
-## References
 
-- [Insert reference details here, if any]
