@@ -31,7 +31,10 @@ The architecture uses a Convolutional Neural Network (CNN) model with the follow
 
 The new method for finding brain tumors using deep learning with CNNs achieved better results compared to the old one. The old method had 97% accuracy, but the new approach reached 98% accuracy, just by using CNNs. This improvement highlights how even small changes in model configuration or data preprocessing can significantly affect performance. The higher accuracy in the new method suggests that the adjustments made in model learning or data preparation contributed to better results. The increase in accuracy might also be attributed to the model being trained for 50 epochs in the new method, compared to the old method, which could have had fewer training rounds.
 
-**Fig 3:** Representation of the increase in model accuracy using proposed approaches.
+![Brain Tumor Detection](Brain tumor prediction/cnnmodel accuracy.png)
+
+*Representation of the increase in model accuracy using proposed approaches.*
+
 
 In conclusion, the new method for brain tumor detection using CNNs performs better than the older method due to fine-tuning of model parameters and data preprocessing. The extended training period (50 epochs) contributed to a more refined model capable of achieving 98% accuracy compared to the 97% accuracy of the old method. These enhancements show how small adjustments can have a significant impact on medical imaging tasks like tumor detection.
 
